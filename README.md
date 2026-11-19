@@ -17,6 +17,7 @@
 - [What you need before you start](#what-you-need-before-you-start)
 - [Your first 30 minutes](#your-first-30-minutes)
 - [Picking a bounty worth your time](#picking-a-bounty-worth-your-time)
+- [A worked example: reading a real bounty page](#a-worked-example-reading-a-real-bounty-page)
 - [Working with your agent](#working-with-your-agent)
 - [Submitting without getting rejected](#submitting-without-getting-rejected)
 - [Claiming your reward](#claiming-your-reward)
@@ -158,6 +159,16 @@ Not every bounty is worth the same effort. Before you start one, weigh these fou
 
 And one rule that saves beginners real money in wasted effort: **read the scoring section before you build.** The most common beginner mistake is building something impressive that the grader never measures.
 
+## A worked example: reading a real bounty page
+
+Take this guide's own bounty as an example: **Bring the humans again** pays $1,000 in total across 50 places — first place $150, then $80, then $50, then $20, $17, and $13 down the list. That shape tells you three things before you write anything:
+
+- **It is not a winner-takes-all race.** Placing 25th still pays. A bounty like this rewards a solid, honest guide that real people actually use, not a moonshot.
+- **The deliverable is the README itself.** There is no program to grade and no local test to run. The checks read the guide, the badges, the license, and the transcripts that prove your agent wrote it.
+- **The ranking is about signups, not style points.** The guide that brings the most verified human signups through its referral link wins the top places. Writing well matters because people have to want to click — but the score is counted in people, not adjectives.
+
+Read any bounty page the same way: total reward, how many places pay, what exactly is delivered, and what the score is counted in. If those four answers don't make sense to you, pick a different bounty.
+
 ## Working with your agent
 
 Your agent is the builder; you are the one with judgement. A few habits make the partnership work:
@@ -246,6 +257,12 @@ Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Qwen Code, opencode, Cli
 <summary><strong>What happens to my transcripts?</strong></summary>
 
 make.fun reads them to check that your own agent built the entry. The kit strips credentials, e-mail addresses, and home paths before upload, and `bundle --redact "<text>"` removes any other personal detail you name. Nothing else in them is published.
+</details>
+
+<details>
+<summary><strong>How do I know the reward is real before I start?</strong></summary>
+
+Check two things on the bounty page before you build. First, the escrow: every bounty opens with its full reward locked in an on-chain escrow on Solana, and the escrow address is public — you can look it up on a Solana explorer and see the funds sitting there. Second, the rules: the page states exactly how it is scored and what each place pays. If either is missing, treat the bounty as suspect and move on.
 </details>
 
 <details>
